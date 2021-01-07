@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
   wrapper: {
     marginTop: 25,
-    marginLeft: 24
+    marginLeft: 20
   },
   imageWrapper: {
     marginTop: 10,
