@@ -13,7 +13,7 @@ export const Index = () => {
   const [clickEditProfile, setclickEditProfile] = useState(false);
   return (
     <View>
-      <PullDown clicked={clickEditProfile}>
+      <PullDown clicked={clickEditProfile} setClicked={setclickEditProfile} heightMultipier={.2} heading="Profile">
         <EditProfile />
       </PullDown>
       <ScrollView>
